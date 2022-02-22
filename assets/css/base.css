@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary: #f55f8d;
+  --primary-hover: #dd3e6e;
+  --primary-dark: #7b1534;
+  --gradient: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+  --rgba-primary-1: rgba(115, 85, 247, 0.1);
+  --rgba-primary-2: rgba(115, 85, 247, 0.2);
+  --rgba-primary-3: rgba(115, 85, 247, 0.3);
+  --rgba-primary-4: rgba(115, 85, 247, 0.4);
+  --rgba-primary-5: rgba(115, 85, 247, 0.6);
+  --rgba-primary-6: rgba(115, 85, 247, 0.6);
+  --rgba-primary-7: rgba(115, 85, 247, 0.7);
+  --rgba-primary-8: rgba(115, 85, 247, 0.8);
+  --rgba-primary-9: rgba(115, 85, 247, 0.9);
+}
+
+/* common */
+.background-transparent {
+  background-color: transparent;
+}
+
+.background-white {
+  background-color: var(--white);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.desc__title {
+  color: #f55f8d;
+  font-size: 2.2rem;
+}
+
+.title {
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-lr {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pad-l15 {
+  padding-left: 15px;
+}
+
+.pad-r15 {
+  padding-right: 15px;
+}
+
+.pad-lrb15 {
+  padding: 0 15px 30px;
+}
+
+.m-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.m-t30 {
+  margin-top: 30px;
+}
+
+.m-b30 {
+  margin-bottom: 30px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+/* grid */
+.grid {
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__row {
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+}
+
+.grid__col-1 {
+  width: 8.3334%;
+}
+
+.grid__col-2 {
+  width: 16.6667%;
+}
+
+.grid__col-3 {
+  width: 25%;
+}
+
+.grid__col-4 {
+  width: 33.3334%;
+}
+
+.grid__col-5 {
+  width: 41.6667%;
+}
+
+.grid__col-6 {
+  width: 50%;
+}
+
+.grid__col-7 {
+  width: 58.3334%;
+}
+
+.grid__col-8 {
+  width: 66.6667%;
+}
+
+.grid__col-9 {
+  width: 75%;
+}
+
+.grid__col-10 {
+  width: 83.3334%;
+}
+
+.grid__col-11 {
+  width: 91.6667%;
+}
+
+.grid__col-12 {
+  width: 100%;
+}
+
+/* btn */
+.all__btn .btn {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 20px 40px;
+  background-image: var(--gradient);
+  background-size: 200%;
+  background-color: transparent;
+  border-radius: 30px;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+.all__btn .btn:hover {
+  background-position: right center;
+  background-color: var(--primary-hover);
+}
